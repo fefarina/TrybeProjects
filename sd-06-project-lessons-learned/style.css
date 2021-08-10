@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap');
+
+
+body {
+    background-color:rgb(253, 251, 251);
+}
+
+#cabecalho {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    background-color: rgb(16, 153, 57);
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    text-align: center;
+}
+
+#cabecalho h1 {
+    font-size: 35px;
+    font-family:'Fira Code', monospace;
+    color: #fff;
+    font-weight: 500;
+    padding-bottom: 20px;
+    letter-spacing: -2px;
+
+}
+
+
+
+#menu {
+    width: 100%;
+    color: #fff;
+    height: auto;
+    background-color: rgb(16, 153, 57);
+    line-height: 35px;
+    font-family: 'Fira Code', monospace;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+
+
+#menu ul li:hover {
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+#menu li img {
+    width: 35px;
+    padding: 5px;
+}
+
+p {
+    color: #000;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: 'Fira Code', monospace;
+}
+
+main {
+    margin-top: 180px;
+    margin:0px 25px 0px 25px;
+}
+
+.profile-picture {
+    margin-top: 180px;
+    margin-bottom: 25px;
+}
+
+.profile-picture img {
+    width: 240px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.35);
+}
+
+.licoes { 
+    display: flex;
+    width: 100%;  
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.licoes h3 {
+    font-family: 'Fira Code', monospace;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+#licoes_aprendidas {
+    font-size: 20px;
+}
+
+#licoes_a_aprender {
+    font-size: 20px;
+}
+
+#artigos {
+    padding-top: 25px;
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 350px;
+}
+
+.lado-esquerdo {
+    padding: 5px;
+    height: 350px;
+    float: left;
+    width: 45%;
+    
+}
+
+.lado-direito {
+    height: 350px;
+    float: right;
+    width: 45%;
+    
+}
+
+
+
+table td {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+#rodape {
+    text-align: center;
+    padding-top: 25px;
+    background-color: rgb(16, 153, 57);
+    font-family: 'Fira Code', monospace;
+    height: 80px;
+    border: 1px solid rgb(16, 153, 57);
+}
+
+#rodape p {
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-weight: 800;
+    color: #fff;
+}

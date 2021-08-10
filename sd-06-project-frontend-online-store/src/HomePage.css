@@ -1,0 +1,39 @@
+.homepage-container {
+  align-items: center;
+  display: flex;
+  padding: 3px;
+}
+
+.homepage-main {
+  padding: 3px;
+  width: 100vw;
+}
+
+.homepage-nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 3px 5px 40px 5px;
+}
+
+.homepage-nav h2 {
+  margin-left: 140px;
+}
+
+.homepage-nav button {
+  background-color: rgb(0, 128, 128);
+  border: none;
+  border-radius: 50%;
+  box-shadow: 1px 2px 3px rgba(128, 128, 128, 0.70);
+  color: rgb(230, 230, 230);
+  font-weight: bold;
+  height: 50px;
+  margin-right: 10px;
+  outline: none;
+  width: 50px;
+}
+
+.homepage-nav button:hover {
+  background-color: rgb(0, 120, 120);
+  cursor: pointer;
+}

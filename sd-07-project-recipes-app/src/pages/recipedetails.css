@@ -1,0 +1,13 @@
+.carousel {
+  align-items: center;
+  display: flex;
+  font-family: sans-serif;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.main_recipe {
+  overflow: hidden;
+  width: 360px;
+}
